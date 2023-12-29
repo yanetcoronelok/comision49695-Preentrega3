@@ -21,12 +21,16 @@ header div img {
     margin: 10px;
 }
 
-.navbar ul li :hover{
+.menu ul li :hover {
     background-color: #7d50487c;
     border-radius: 1rem;
     padding: 5px;
 }
 
+nav ul {
+    font-size: smaller;
+    gap: 10px;
+}
 
 /* desktop a mobile - max-widht; mobile a desktom - min-width */
 @media (min-width:375px) {
@@ -34,11 +38,25 @@ header div img {
         border: 2px solid rgb(251, 0, 255);
     }
 
+    nav ul {
+        font-size: small;
+        gap: 10px;
+    }
+
 }
 
 @media (min-width:428px) {
     header div img {
         border: 2px solid rgb(3, 154, 41);
+        width: 15rem;
+        height: 9rem;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav ul {
+        font-size: medium;
+
     }
 
 }
@@ -47,7 +65,29 @@ header div img {
 @media (min-width:768px) {
     header div img {
         border: 2px solid rgb(183, 255, 0);
+        width: 18rem;
+        height: 11rem;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav ul {
+        font-size: medium;
+
     }
 }
 
-@media (min-width:1024px) {}
+@media (min-width:1024px) {
+    header div img {
+        border: 2px solid rgb(25, 0, 255);
+        width: 20rem;
+        height: 12rem;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav ul {
+        font-size: large;
+    }
+
+}
