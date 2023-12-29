@@ -35,7 +35,7 @@ nav ul {
 /* desktop a mobile - max-widht; mobile a desktom - min-width */
 @media (min-width:375px) {
     header div img {
-        border: 2px solid rgb(251, 0, 255);
+        
     }
 
     nav ul {
@@ -47,7 +47,6 @@ nav ul {
 
 @media (min-width:428px) {
     header div img {
-        border: 2px solid rgb(3, 154, 41);
         width: 15rem;
         height: 9rem;
         padding: 10px;
@@ -64,7 +63,6 @@ nav ul {
 
 @media (min-width:768px) {
     header div img {
-        border: 2px solid rgb(183, 255, 0);
         width: 18rem;
         height: 11rem;
         padding: 10px;
@@ -79,16 +77,17 @@ nav ul {
 
 @media (min-width:1024px) {
     header div img {
-        border: 2px solid rgb(25, 0, 255);
         width: 20rem;
         height: 12rem;
-        padding: 10px;
-        margin: 10px;
+        padding: 15px;
+        margin: 15px;
     }
 
     nav ul {
         font-size: large;
         gap: 2rem;
+        padding: 15px;
+        margin: 15px;
     }
 
 }
