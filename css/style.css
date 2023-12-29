@@ -35,7 +35,10 @@ nav ul {
 /* desktop a mobile - max-widht; mobile a desktom - min-width */
 @media (min-width:375px) {
     header div img {
-        
+        width: 11rem;
+        height: 6rem;
+        padding: 10px;
+        margin: 10px;
     }
 
     nav ul {
