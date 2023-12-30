@@ -46,6 +46,9 @@ footer{
     background-color: #7d50487c;
 }
 
+.card-quote{
+    background-color: #e3c0ba4d;
+}
 
 /* Medias queries mobilefist a web */
 /* desktop a mobile - max-widht; mobile a desktom - min-width */
