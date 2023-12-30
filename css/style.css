@@ -7,6 +7,15 @@ font-family: 'Poppins', sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+}
 
 /* Estilo del header */
 .header-background {
