@@ -131,3 +131,132 @@ footer{
     }
 
 }
+
+/* css portfolio */
+
+.galeria {
+    display: grid;
+    width: 75%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 250px);
+    grid-template-areas:
+        "img1 img2 img3"
+        "img4 img2 img5"
+        "img6 img7 img8"
+        "img9 img7 img10"
+    ;
+    row-gap: 5px;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imagen-galeria {
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-galeria img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.img7 {
+    grid-area: img7;
+}
+
+.img8 {
+    grid-area: img8;
+}
+
+.img9 {
+    grid-area: img9;
+}
+
+.img10 {
+    grid-area: img10;
+}
+
+
+
+
+
+
+
+@media(max-width:1024px) {
+    .header-index {
+        background-color: rgba(0, 0, 255, 0.482);
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 15.625rem;
+        grid-template-areas:
+            "img1 img1"
+            "img1 img1"
+            "img6 img6"
+            "img6 img6"
+            "img2 img2"
+            "img2 img2"
+            "img3 img3"
+            "img3 img3"
+            "img4 img4"
+            "img4 img4"
+            "img5 img5"
+            "img5 img5"
+            "img7 img7"
+            "img7 img7"
+            "img8 img8"
+            "img8 img8"
+            "img9 img9"
+            "img9 img9"
+            "img10 img10"
+            "img10 img10"
+        ;
+    }
+
+}
+
+@media(max-width:425px) {
+    .header-index {
+        background-color: rgba(190, 233, 83, 0.482);
+        flex-direction: column;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "img2"
+            "img1"
+            "img3"
+            "img4"
+            "img5"
+        ;
+    }
+}
+
