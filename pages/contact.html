@@ -101,10 +101,11 @@
                             away.</p>
                     </li>
 
-                    <li><h5>On Foot:</h5>
-                    <p> If you're exploring the city on foot, our shop is situated in a prime location, easily
-                        accessible
-                        from popular landmarks.</p>
+                    <li>
+                        <h5>On Foot:</h5>
+                        <p> If you're exploring the city on foot, our shop is situated in a prime location, easily
+                            accessible
+                            from popular landmarks.</p>
                     </li>
                 </ul>
                 </p>
@@ -119,19 +120,41 @@
                 <p class="contenedor-formulario-texto"> Complete the next form and we'll contact you!.</p>
 
                 <form method="post" name="formulario-contacto">
-                    <input class="input-formulario" type="text" name="Name" placeholder="Name" required>
-                    <input class="input-formulario" type="email" name=email placeholder="Email" required>
-                    <input class="input-formulario" type="text" name="message-subject" placeholder="Message Subject"
-                        required>
-
-
-
-                    <textarea name="message" id="message" cols="30" rows="12"
-                        placeholder="Write your message here!"></textarea>
-                    <button>Submit Message</button>
-
+                    <div class="mb-3">
+                        <label for="FormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="FormControlInput1" placeholder="Type here your name"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput2" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="FormControlInput2"
+                            placeholder="Type here your last name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput3" class="form-label">Phone number</label>
+                        <input type="tel" class="form-control" id="FormControlInput3"
+                            placeholder="Example: (123) 456-7890">
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput4" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="FormControlInput4" placeholder="name@example.com"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlInput5" class="form-label">Message Subject</label>
+                        <input type="text" class="form-control" id="FormControlInput5" placeholder="Message Subject"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlTextarea6" class="form-label">Write your message here!</label>
+                        <textarea class="form-control" id="FormControlTextarea6" cols="30" rows="12"
+                            required></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-secondary mb-3">Send message</button>
+                    </div>
                 </form>
-
+                </form>
 
             </section>
 
