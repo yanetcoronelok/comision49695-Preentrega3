@@ -272,7 +272,6 @@ footer {
     margin: 3px;
     width: 50%;
     margin: 20px 0px 20px 0px;
-    border: 1px solid red;
 }
 
 .contenedor-map-titulo {
@@ -299,7 +298,6 @@ iframe{
     margin: 3px;
     width: 50%;
     margin: 20px 0px 20px 0px;
-    border: 1px solid red;
 }
 
 .contenedor-formulario-titulo {
@@ -339,7 +337,7 @@ form textarea {
     margin: 5px;
 }
 
-form button {
+.boton-mensaje{
     font-size: 20px;
     background-color: #7d50487c;
     border-radius: 15px;
