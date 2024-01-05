@@ -321,6 +321,10 @@ iframe {
     margin: 10px;
 }
 
+.boton-mensaje:hover {
+    background-color: #484c7d7c;
+}
+
 
 @media(min-width:1024px) {
 
