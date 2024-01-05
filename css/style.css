@@ -63,6 +63,13 @@ footer {
     background-color: #e3c0ba4d;
 }
 
+
+.card-img-top {
+    width: 400px; /* Tamaño específico en píxeles */
+    height: 500px; /* Altura específica en píxeles (ajusta según tus necesidades) */
+    object-fit: cover; /* Ajusta el comportamiento de la imagen dentro del contenedor */
+}
+
 /* Medias queries mobilefist a web */
 /* desktop a mobile - max-widht; mobile a desktom - min-width */
 @media (min-width:375px) {
@@ -288,15 +295,12 @@ iframe {
     padding-bottom: 40px;
 }
 
-/* 
+
 .contenedor-formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3px;
-    width: 50%;
-    margin: 20px 0px 20px 0px;
-} */
+}
 
 
 
@@ -354,9 +358,3 @@ iframe {
     
 }
 
-
-.card-img-top {
-    width: 400px; /* Tamaño específico en píxeles */
-    height: 500px; /* Altura específica en píxeles (ajusta según tus necesidades) */
-    object-fit: cover; /* Ajusta el comportamiento de la imagen dentro del contenedor */
-}
