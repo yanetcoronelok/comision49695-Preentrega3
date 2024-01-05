@@ -353,3 +353,10 @@ iframe {
     }
     
 }
+
+
+.card-img-top {
+    width: 400px; /* Tamaño específico en píxeles */
+    height: 500px; /* Altura específica en píxeles (ajusta según tus necesidades) */
+    object-fit: cover; /* Ajusta el comportamiento de la imagen dentro del contenedor */
+}
