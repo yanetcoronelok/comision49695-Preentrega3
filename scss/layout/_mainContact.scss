@@ -1,0 +1,79 @@
+ .contenedor-map-texto {
+     border-radius: 20px;
+     background-color: $BackgroundColorCards;
+     padding: 2rem;
+     margin: 10px 65px 10px 65px;
+ }
+
+ .contenedor-formulario-texto {
+     @extend .contenedor-map-texto;
+ }
+
+
+ .contenedor-formulario {
+     @include flexcolumn(column,center,center);
+ }
+
+
+/*
+ main {
+     section {
+         section {
+             form {
+                 div {
+                     button {
+                         font-size: 20px;
+                         background-color: $ButtonColor;
+                         color: black;
+                         border-radius: 15px;
+                         width: 75%;
+                         align-self: center;
+                         margin: 10px;
+                       
+                     }
+                     
+                     }
+                 }
+             }
+
+
+
+         }
+     }
+*/
+ 
+ @media(min-width:1024px) {
+
+     .mapa-formulario {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+     }
+
+     .contenedor-map {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin: 3px;
+         width: 50%;
+         margin: 20px 0px 20px 0px;
+     }
+
+     .contenedor-formulario {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin: 3px;
+         width: 50%;
+         margin: 20px 0px 20px 0px;
+     }
+
+     form {
+         display: flex;
+         flex-direction: column;
+         padding: 20px;
+         width: 50%;
+         margin-bottom: 40px;
+     }
+
+ }
