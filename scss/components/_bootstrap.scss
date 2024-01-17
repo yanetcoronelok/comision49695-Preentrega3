@@ -1,0 +1,18 @@
+.card-quote {
+    background-color: #e3c0ba4d;
+}
+
+
+.card-img-top {
+    width: 400px; /* Tamaño específico en píxeles */
+    height: 500px; /* Altura específica en píxeles (ajusta según tus necesidades) */
+    object-fit: cover; /* Ajusta el comportamiento de la imagen dentro del contenedor */
+}
+
+.review-card-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin: 10px;
+    padding: 10px;
+}

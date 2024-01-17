@@ -1,0 +1,18 @@
+// partials de utilities (variables, mixins y funciones)
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+// partials de layouts y base
+@import "./base/resets";
+@import "./base/fonts";
+@import "./layout/header";
+@import "./layout/mainIndex";
+@import "./layout/mainAboutUs";
+@import "./layout/mainContact";
+@import "./layout/mainPortfolio";
+@import "./layout/mainReviews";
+@import "./layout/footer";
+
+//partials de los components
+@import "./components/bootstrap";
